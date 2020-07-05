@@ -1,0 +1,78 @@
+body {
+
+	background-color: #ccc;	
+	border: 1px solid black;
+	
+}
+
+.top-logo .logo1 {
+
+	max-width: 50%;
+	height: auto;
+}
+.container {
+	margin-top: 1em;
+}
+.a1{	
+	
+ 	text-align: center;
+ 	border: 1px solid yellow;
+	
+}
+
+.b1 {
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+	border: 1px solid blue;
+	
+}
+
+.c1 {
+	
+	border: 1px solid green;
+ 	text-align: center;
+
+}
+
+
+
+@media only  screen  and (max-width: 767px){
+
+		body {
+			margin-top: 1em;
+			text-align: center;
+
+		}
+
+		.a1, .b1, .c1 {
+			padding-bottom: 1em;
+		}
+			.a1 {	
+			max-width: 100%;
+		 	text-align: center;
+		 	border: 1px solid white;
+			
+		}
+
+		 .a1 .img-fluid {
+			height: 150px;
+			width: 60%;
+		}
+
+		.b1 {
+			max-width: 100%;
+			height: auto;
+			text-align: center;
+			border: 1px solid blue;
+			
+		}
+
+		.c1 {
+			width: 100%;
+		 	height: auto;
+		 	text-align: center;
+		 	border: 1px solid white;
+		}
+
+}
