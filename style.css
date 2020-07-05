@@ -4,11 +4,24 @@ body {
 	border: 1px solid black;
 	
 }
+.top-logo{
+	
+}
+.logo1 {
 
-.top-logo .logo1 {
-
-	max-width: 50%;
+	max-width: 3.9%;
 	height: auto;
+	border: 1px solid black;
+}
+
+.search {
+	border-radius: 10px;
+	width: 300px;
+	height: 30px;
+	float: right;	
+}
+..container-top{
+	margin-top: 1em;
 }
 .container {
 	margin-top: 1em;
@@ -45,22 +58,45 @@ body {
 
 		}
 
+		.search {
+	border-radius: 10px;
+	width: 150px;
+	
+}
+
+		.top-logo{
+			border: 1px solid black;
+			border
+		}		
+				.logo1 {
+
+			max-width: 10%;
+			height: auto;
+			float: left;
+			border: 1px solid black;
+		}
+
+		.nav-item {
+			text-align: left;
+		}
+
 		.a1, .b1, .c1 {
-			padding-bottom: 1em;
+			padding-bottom: 3em;
 		}
 			.a1 {	
-			max-width: 100%;
+
 		 	text-align: center;
-		 	border: 1px solid white;
+		 	border: 3px solid pink;
 			
 		}
 
 		 .a1 .img-fluid {
-			height: 150px;
-			width: 60%;
+		 	
+			height: auto;
+			width: 80%;
 		}
 
-		.b1 {
+		.b1 .img-fluid {
 			max-width: 100%;
 			height: auto;
 			text-align: center;
@@ -68,8 +104,8 @@ body {
 			
 		}
 
-		.c1 {
-			width: 100%;
+		.c1 .img-fluid {
+			width: 80%;
 		 	height: auto;
 		 	text-align: center;
 		 	border: 1px solid white;
